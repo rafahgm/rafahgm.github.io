@@ -14,7 +14,7 @@
       <section class="space-y-3">
         <h2 class="text-[#EEEEEC] text-xl font-medium">1. Quem somos</h2>
         <p class="font-light">
-          O responsável pelo tratamento dos dados é <strong>[SEU NOME COMPLETO]</strong>,
+          O responsável pelo tratamento dos dados é <strong>Rafael Henrique Gomes de Morais</strong>,
           pessoa física, inscrito(a) no CPF <strong>465.646.128-85</strong>, com contato pelo e-mail
           <strong>rafael@nitrodev.com</strong>.
         </p>
