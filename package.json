@@ -1,27 +1,25 @@
 {
-  "name": "rafahgm.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "protfolio",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafahgm/rafahgm.github.io.git"
+  "dependencies": {
+    "@nuxt/eslint": "^1.13.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/rafahgm/rafahgm.github.io/issues"
-  },
-  "homepage": "https://github.com/rafahgm/rafahgm.github.io#readme",
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "eslint": "^9.39.2",
     "tailwindcss": "^4.1.18",
-    "vite": "^7.3.1"
+    "typescript": "^5.9.3"
   }
 }
