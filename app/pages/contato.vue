@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+  title: 'Contato - Rafael Morais'
+})
+
 const whatsappNumber = "5514991786798";
 
 const form = reactive({
@@ -43,7 +47,7 @@ const submitToWhatsapp = () => {
             type="text"
             required
             class="w-full rounded-md border border-[#2A2A2A] bg-[#151515] px-3 py-2 outline-none focus:border-[#EEEEEC]"
-          />
+          >
         </div>
 
         <div>
@@ -54,7 +58,7 @@ const submitToWhatsapp = () => {
             type="email"
             required
             class="w-full rounded-md border border-[#2A2A2A] bg-[#151515] px-3 py-2 outline-none focus:border-[#EEEEEC]"
-          />
+          >
         </div>
 
         <div>
@@ -64,7 +68,7 @@ const submitToWhatsapp = () => {
             v-model="form.subject"
             type="text"
             class="w-full rounded-md border border-[#2A2A2A] bg-[#151515] px-3 py-2 outline-none focus:border-[#EEEEEC]"
-          />
+          >
         </div>
 
         <div>

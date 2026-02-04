@@ -87,3 +87,11 @@
     </article>
   </main>
 </template>
+
+
+
+<script setup lang="ts">
+useHead({
+  title: 'Política de Privacidade - Rafael Morais'
+})
+</script>
